@@ -1,0 +1,17 @@
+{
+	"port": 8080,
+	"cors": {
+		"origin": [
+			"http://localhost:3001"
+		],
+		"methods": [
+			"GET",
+			"POST"
+		],
+		"allowedHeaders": [
+			"Content-Type",
+			"Authorization"
+		]
+	},
+	"bodyLimit": "100kb"
+}
