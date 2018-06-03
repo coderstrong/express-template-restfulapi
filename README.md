@@ -8,9 +8,9 @@ ref: [express-es6-rest-api](https://github.com/developit/express-es6-rest-api)
 - ES6 support via [babel](https://babeljs.io)
 - REST resources as middleware via [resource-router-middleware](https://github.com/developit/resource-router-middleware)
 - CORS support via [cors](https://github.com/troygoode/node-cors)
-- Body Parsing via [body-parser](https://github.com/expressjs/body-parser)
-- Json Web Token via [express-jwt](https://github.com/auth0/express-jwt)
-- ORM Database via [sequelize](https://github.com/sequelize/sequelize)
+- Body Parsing support via [body-parser](https://github.com/expressjs/body-parser)
+- Json Web Token support via [express-jwt](https://github.com/auth0/express-jwt)
+- ORM Database support via [sequelize](https://github.com/sequelize/sequelize)
 
 
 # Getting Started

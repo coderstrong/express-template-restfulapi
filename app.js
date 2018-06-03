@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 // config
-// import initializeDb from './config/database';
 import config from './config/global.json';
 import configJWT from './config/jwt';
 
@@ -30,7 +29,7 @@ app.use(helmet());
 
 // body-parser
 app.use(bodyParser.json({
-	limit : config.bodyLimit
+  limit: config.bodyLimit
 }));
 
 

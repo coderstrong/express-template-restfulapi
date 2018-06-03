@@ -1,5 +1,5 @@
 import resource from 'resource-router-middleware';
-var models = require('../models');
+var models = require('../database/models');
 
 export default ({ config }) => resource({
 
@@ -10,9 +10,7 @@ export default ({ config }) => resource({
 	 *  Errors terminate the request, success sets `req[id] = data`.
 	 */
 	load(req, id, callback) {
-		models.User.findAll({
-			include: [models.Task]
-		}).then(function (users) {
+		models.User.findAll().then(function (users) {
 			callback(err, users);
 		});
 	},
