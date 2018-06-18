@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 // config
-import config from './config/global.json';
+import config from './config/global';
 import configJWT from './config/jwt';
 
 // 3rd party middleware
